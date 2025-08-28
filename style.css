@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2,h3{
+    color: azure;
+    background-color: brown;
+}
+
+/* div + p{ immediate sibling
+    background-color: red;
+} */
+
+div~p{
+    background-color: yellow;
+}
+
+p:nth-child(2){
+    background-color: violet;
+    color: white;
+}
+
+div p:nth-of-type(1){
+    background-color: aqua;
+    font-size: xx-large;
+}
